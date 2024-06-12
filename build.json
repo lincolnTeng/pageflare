@@ -5,9 +5,9 @@ const build={
                           nav:topnav.json,
                           main:main.json,
                           bottom:bottom.json,
-                  },
+            },
           build:buildindex.js
-     },
+    },
  topnav:{  home:index,
              pages:pageindex.json,
              post:postindex,
@@ -20,8 +20,7 @@ const build={
              mainnav:pagenav
            },
   pageindex: {      build:pageindex.js    },
-  postindex:{      build:postindex.js      } 
-
-}
-
-
+  postindex:{      build:postindex.js      }, 
+  posts:{ build:kvposts.js  },
+  pages:{build:kvpages} 
+};
