@@ -13,4 +13,4 @@
     "copy": "cp -r src/ home",
       "copy-bootstrap": "mkdir -p /home/assets/bootstrap && cp -r node_modules/bootstrap/dist/ /home/assets/bootstrap/"
   }
-}
+} 
