@@ -1,0 +1,27 @@
+const build={
+  index:{
+          file:index.html,
+           com:{top:top.json,
+                          nav:topnav.json,
+                          main:main.json,
+                          bottom:bottom.json,
+                  },
+          build:buildindex.js
+     },
+ topnav:{  home:index,
+             pages:pageindex.json,
+             post:postindex,
+             "about":aboutpage.page 
+           },
+   
+  main:{ head:headcard,
+              firstblock:toppageblock,
+             list:lastpost5,
+             mainnav:pagenav
+           },
+  pageindex: {      build:pageindex.js    },
+  postindex:{      build:postindex.js      } 
+
+}
+
+
