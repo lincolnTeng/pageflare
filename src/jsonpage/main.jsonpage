@@ -1,0 +1,23 @@
+{
+file:'main.html',
+  path:'/',
+  parts:{type:array,
+                      array:'head','main','bottom'},
+  head:{type:array:
+                  array:'headtop','nav','headrest'},
+headtop:{type:string ,
+                          string:''},
+nav:{type:function,
+            function:async function buildnav=(){} ;
+},
+headrest:{type:string ,
+                            string:'' },
+main :{type:json,
+            json:main.json
+},
+bottom:{type:string ,
+                  string:'' }
+}
+
+  
+}
