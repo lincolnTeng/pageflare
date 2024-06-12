@@ -6,10 +6,11 @@
     "bootstrap": "5.3.0" 
   },
   "scripts": {
-    "prebuild": "node prebuild.js",
-    "build": "npm run clean && npm run copy",
+    "prebuild": "npm install && node prebuild.js",
+    "build": "npm run clean && npm run copy && npm run copy-bootstrap",
     "postbuild": "echo 'Build completed'", 
     "clean": "rm -rf home",
-    "copy": "cp -r src/ home"
+    "copy": "cp -r src/ home",
+      "copy-bootstrap": "mkdir -p /home/assets/bootstrap && cp -r node_modules/bootstrap/dist/ /home/assets/bootstrap/"
   }
 }
