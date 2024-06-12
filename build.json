@@ -1,6 +1,6 @@
 const build={
-  index:{
-          file:index.html,
+  'index':{
+          'file':index.html,
            com:{top:top.json,
                           nav:topnav.json,
                           main:main.json,
@@ -19,8 +19,8 @@ const build={
              list:lastpost5,
              mainnav:pagenav
            },
-  pageindex: {      build:pageindex.js    },
-  postindex:{      build:postindex.js      }, 
-  posts:{ build:kvposts.js  },
-  pages:{build:kvpages} 
+  'pageindex': {      build:pageindex.js    },
+  'postindex':{      build:postindex.js      }, 
+  'posts':{ 'build':kvposts.js  },
+  'pages':{'build':kvpages} 
 };
