@@ -12,12 +12,16 @@ nav:{type:function,
 },
 headrest:{type:string ,
                             string:'' },
-main :{type:json,
-            json:main.json
+main :{type:array,
+            array: {firstblock，secondblock，thirdblock}
 },
 bottom:{type:string ,
                   string:'' }
 }
-
-  
+firstblock:{type:function,
+                                 function:gethotpost(); },
+secondblock:{type:function,
+                                function:getlastpost();},
+thirdblock:{type:function,
+                                function:getpromptpost();}
 }
