@@ -1,9 +1,16 @@
 {
 file:'main.html',
   path:'/',
-  parts:{type:array,
-                      array:'head','main','bottom'},
-  head:{type:array:
+title:'title for the page ',
+meta:{'meta1':'content1',
+              'meta2':'content2',
+                'meta3':'content3'
+            },
+  time:'timestring',
+    tags:'tag1,tag2,tag3,tag4',
+  bodyparts:{type:array,
+                      array:'tophead','main','bottom'},
+  tophead:{type:array:
                   array:'headtop','nav','headrest'},
 headtop:{type:string ,
                           string:''},
